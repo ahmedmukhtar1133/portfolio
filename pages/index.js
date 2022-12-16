@@ -59,7 +59,7 @@ export default function Home() {
                                 boxSize='250px'
                                 htmlWidth={250}
                                 htmlHeight={250}
-                                src='https://res.cloudinary.com/ahmed1133/image/upload/v1671130826/me/1652734663032_cr4ten.jpg'
+                                src='https://res.cloudinary.com/ahmed1133/image/upload/v1671225744/me/profile_sy4lks.jpg'
                                 objectFit='cover'
                                 alt='Profile Picture'
                                 onLoad={() => setImageLoaded(true)}

@@ -39,7 +39,7 @@ const Footer = () => {
                 <Text display='flex' alignSelf='center' mx='auto'>
                     Built with:
                     <Tooltip label='NextJS'>
-                        <ChakraLink href='https://nextjs.org/' display='flex'>
+                        <ChakraLink aria-label='NextJS' href='https://nextjs.org/' display='flex'>
                             <Icon
                                 color={useColorModeValue(`gray.800`, `white`)}
                                 viewBox='0 0 256 256'
@@ -56,7 +56,7 @@ const Footer = () => {
                     </Tooltip>
                     /
                     <Tooltip label='Chakra-UI'>
-                        <ChakraLink href='https://chakra-ui.com/' display='flex'>
+                        <ChakraLink aria-label='Chakra-UI' href='https://chakra-ui.com/' display='flex'>
                             <Icon
                                 color={useColorModeValue(`gray.800`, `white`)}
                                 viewBox='0 0 256 256'

@@ -19,13 +19,13 @@ function Projects({ repos }) {
                     <Text mt={3}>A quick collection of my projects.</Text>
                     <VStack direction='column' my={16} width='full' height='full' maxWidth='5xl' spacing={10}>
                         {pinnedRepos.map((data, index) => (
-                                <PinnedProjects
-                                    key={index.toString()}
-                                    repo={repos.find((x) => x.name.toLowerCase() === data.id.toLowerCase())}
-                                    left={index % 2 === 0}
-                                    projectData={data}
-                                />
-                            ))}
+                            <PinnedProjects
+                                key={index.toString()}
+                                repo={repos.find((x) => x.name.toLowerCase() === data.id.toLowerCase())}
+                                left={index % 2 === 0}
+                                projectData={data}
+                            />
+                        ))}
                     </VStack>
                     <LineHeading fontSize={{ base: `5xl`, lg: `5xl` }} textAlign='center'>
                         Repositories
@@ -71,8 +71,8 @@ function Projects({ repos }) {
     );
 }
 
-export async function getStaticProps(){
-    const response = await fetch(`${process.env.NEXT_PUBLIC_HOST }/api/github`);
+export async function getStaticProps() {
+    const response = await fetch(`${process.env.NEXT_PUBLIC_HOST}/api/github`);
     const { stars, repos, followers } = await response.json();
     return { props: { stars, repos, followers, revalidate: 600 } };
 }

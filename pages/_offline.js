@@ -5,8 +5,6 @@ import {
     Heading,
     Text
 } from '@chakra-ui/react';
-import Link from "next/link";
-import LineHeading from "@/components/LineHeading";
 
 export default function Offline() {
     return (

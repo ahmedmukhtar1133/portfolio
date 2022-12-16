@@ -5,7 +5,7 @@ import { transparentize, mode } from '@chakra-ui/theme-tools';
 
 const theme = extendTheme({
     config: {
-        initialColorMode: 'light'
+        initialColorMode: 'dark'
     },
     components: {
         Link: {
