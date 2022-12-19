@@ -1,7 +1,7 @@
 # ahmadgoraya.com
 > A Progressive Web App (PWA) built with Next.js and Chakra UI. This is my portfolio site to showcase my skills, share my experience and also details about me.
 >
-> Live demo [_here_](https://www.ahmadgoraya.com/).
+> Live demo [_here_](https://ahmadgoraya.com/).
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -27,7 +27,22 @@ This is my portfolio website to showcase my skills, share my experience and show
 - Dark Mode 
 - Cross browser compatible
 - Mobile Friendly
-- 90+ score on [google page insights](https://res.cloudinary.com/humayoncloud/image/upload/v1641593155/Portfolio/gpi_pmyrgt.png) and [gtmetrix](https://res.cloudinary.com/humayoncloud/image/upload/v1641593156/Portfolio/gtmertix_ups4yg.png)
+- 90+ score on [google page insights](https://res.cloudinary.com/ahmed1133/image/upload/v1671482376/me/googleInsights_pptopa.png) and [gtmetrix](https://res.cloudinary.com/ahmed1133/image/upload/v1671482377/me/gtmatrix_yujcye.png)
+
+## Screenshots
+
+![Home Page](https://res.cloudinary.com/ahmed1133/image/upload/v1671225656/me/portfolio-home_1_kuljm7.png)
+
+![Projects](https://res.cloudinary.com/ahmed1133/image/upload/v1671482216/me/projects_dzh2su.png)
+
+![Resume](https://res.cloudinary.com/ahmed1133/image/upload/v1671482216/me/resume_qpsstm.png)
+
+![Contact](https://res.cloudinary.com/ahmed1133/image/upload/v1671482209/me/contact_ilrckm.png)
+
+![GT Metrix](https://res.cloudinary.com/ahmed1133/image/upload/v1671482377/me/gtmatrix_yujcye.png)
+
+![Google Page Insights](https://res.cloudinary.com/ahmed1133/image/upload/v1671482376/me/googleInsights_pptopa.png)
+
 
 ## Setup
 Clone the project using:
